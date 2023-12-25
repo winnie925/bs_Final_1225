@@ -1,0 +1,19 @@
+.works-list{
+    display: none;
+    
+}
+    
+    
+.works-list-hover{
+    transition: all 0.15s ease-in-out;
+
+    &:hover{
+        .works-list{
+            display: inline-block;
+            
+        }
+    }
+}
+
+    
+

@@ -1,0 +1,13 @@
+.link-hover{
+    color: $info;
+    background-color: $light;
+    border-width: 1px 0px 0px 0px;
+    transition: .15s ease-in-out;
+
+    &:hover{
+        background-color: $light;
+        border-width: 1px 0px 0px 0px;
+        color: $primary;
+    }
+
+}

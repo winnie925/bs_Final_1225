@@ -1,0 +1,23 @@
+.card-img-hover{
+
+    position: relative;
+    overflow: hidden;
+
+    .card-img-hover1{
+
+        max-width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        opacity: 0;
+        transition: .15s ease-in-out;
+    }
+
+    &:hover{
+        .card-img-hover1{
+        opacity: 1;
+        }
+    }
+}

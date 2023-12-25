@@ -1,0 +1,49 @@
+.home-btn{
+
+    position: relative;
+    overflow: hidden;
+
+    .home-btn-hover {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 52px;
+    left: 12px;
+    transition: opacity 0.15s ease;
+    opacity: 0;
+    }
+
+    &:hover {
+        .home-btn-hover {
+            opacity: 1;
+        }
+    }
+}
+
+.home-btn-text{
+
+    &::before {
+        position: absolute;
+        top: 22.5%;
+        left: 73px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px;
+        border-color: #000 transparent  transparent transparent;
+        content: "";
+        transform: translateY(-50%);
+    }
+    &::after {
+        position: absolute;
+        top: 21%;
+        left: 73px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 10px;
+        border-color: #fff transparent transparent transparent;
+        content: "";
+        transform: translateY(-50%);
+    }
+}

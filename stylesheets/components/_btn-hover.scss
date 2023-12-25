@@ -1,0 +1,17 @@
+.btn-hover{
+    
+    transition: .15s ease-in-out;
+
+    &:hover {
+        border-color: $primary;
+        color: $dark;
+        background-color: $primary;
+    }
+
+    &:active {
+        border-color: $primary;
+        color: $dark;
+        background-color: $primary;
+    }
+}
+

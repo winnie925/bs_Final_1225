@@ -1,0 +1,12 @@
+.works{
+    text-decoration: none;
+    color: transparent;
+    background: transparent;
+    transition: .15s ease-in-out;
+
+    &:hover {
+        background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.4));
+        color: $white;
+    }
+}
+
